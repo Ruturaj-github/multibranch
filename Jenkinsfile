@@ -1,6 +1,6 @@
 node {
     stage('download') {
-    git 'https://github.com/Ruturaj-github/pipeline.git'
+    git 'https://github.com/Ruturaj-github/multibranch.git'
 }
 	stage('build') {
 	sh 'mvn package'
